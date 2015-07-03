@@ -1,0 +1,41 @@
+{
+  "name": "vue-seed",
+  "version": "0.0.1",
+  "description": "A vue.js seed project with es2015 support",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server",
+    "test": "karma start --single-run --browsers firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pillarsproject/pillars.git"
+  },
+  "keywords": [
+    "realtime",
+    "cloud",
+    "backend"
+  ],
+  "author": "Abhinandan <nmabhinandan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pillarsproject/pillars/issues"
+  },
+  "homepage": "https://github.com/pillarsproject/pillars#readme",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-eslint": "^3.1.20",
+    "babel-loader": "^5.2.2",
+    "eslint": "^0.24.0",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "es6-collections": "^0.5.1",
+    "vue": "^0.12.4",
+    "vue-class-component": "^1.0.0",
+    "vue-router": "vuejs/vue-router",
+    "vue-validator": "^1.1.1"
+  }
+}
