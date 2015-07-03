@@ -1,27 +1,28 @@
 {
-  "name": "vue-seed",
+  "name": "vue-starter-kit",
   "version": "0.0.1",
-  "description": "A vue.js seed project with es2015 support",
+  "description": "A vue.js starter kit to develop with es2015",
   "main": "js/app.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server",
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack",
     "test": "karma start --single-run --browsers firefox"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pillarsproject/pillars.git"
+    "url": "git+https://github.com/nmabhinandan/vue-starter-kit.git"
   },
   "keywords": [
-    "realtime",
-    "cloud",
-    "backend"
+    "vue",
+    "component",
+    "front end framework"
   ],
   "author": "Abhinandan <nmabhinandan@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pillarsproject/pillars/issues"
+    "url": "https://github.com/nmabhinandan/vue-starter-kit/issues"
   },
-  "homepage": "https://github.com/pillarsproject/pillars#readme",
+  "homepage": "https://github.com/nmabhinandan/vue-starter-kit#readme",
   "devDependencies": {
     "babel-core": "^5.6.15",
     "babel-eslint": "^3.1.20",
