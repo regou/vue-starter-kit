@@ -2,3 +2,7 @@ node_modules/
 dist/
 build.js
 build.js.map
+*~
+.DS_Store
+.idea/
+Thumbs.db
