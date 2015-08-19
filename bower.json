@@ -1,0 +1,19 @@
+{
+  "name": "insi",
+  "version": "0.0.0",
+  "homepage": "https://github.com/regou/vue-starter-kit",
+  "authors": [
+    "wangxiao <wangxiao@patsnap.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "amazeui": "~2.4.2"
+  }
+}

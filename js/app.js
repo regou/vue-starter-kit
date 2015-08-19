@@ -1,8 +1,13 @@
-import component from 'vue-class-component';
+
 import bootstrap from './bootstrap';
 
-@component
-class App {
-}
+var Vue = require('vue');
 
-bootstrap(App);
+require('./components/SideNav');
+
+
+var Main = Vue.extend({//Root Component
+
+});
+
+bootstrap(Main);

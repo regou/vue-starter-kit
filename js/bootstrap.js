@@ -1,10 +1,12 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import routes from './routes';
+var Vue = require('vue');
+var Router = require('vue-router');
+var routes = require('./routes');
+
 Vue.use(Router);
 
-export default function bootstrap(RootComponent) {
+module.exports = function bootstrap(RootComponent) {
 	const router = new Router();
 	router.map(routes);
 	router.start(RootComponent, '#app');
-}
+};
+
