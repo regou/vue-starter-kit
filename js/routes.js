@@ -6,7 +6,7 @@ const routes = {
 	'/': {
 		component: HomeComponent
 	},
-	'/users/:name': {
+	'/user/:id': {
 		component: UserComponent
 	}
 };
