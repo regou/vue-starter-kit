@@ -1,5 +1,5 @@
-import HomeComponent from './components/home.component';
-import UserComponent from './components/user.component';
+import HomeComponent from './components/HomeComponent';
+import UserComponent from './components/UserComponent';
 
 
 const routes = {
