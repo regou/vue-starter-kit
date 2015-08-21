@@ -1,7 +1,11 @@
 
-# Vue.js starter kit
-###### A minimal starter project for anyone looking to get up and running with [Vue.js](http://vuejs.org) and ECMAScript (es6 and beyond).
+# Vue.js starter
+
+`npm install`
+`bower install`
+`npm run dev`
+
+
 
 ## License
-
 [MIT](http://opensource.org/licenses/MIT).

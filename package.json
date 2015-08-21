@@ -1,33 +1,17 @@
 {
   "name": "vue-starter-kit",
   "version": "0.0.1",
-  "description": "A vue.js starter kit to develop with es2015",
+  "description": "A vue.js starter kit to develop",
   "main": "js/app.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server",
-    "build": "node_modules/.bin/webpack",
-    "test": "karma start --single-run --browsers firefox"
+    "build": "node_modules/.bin/webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nmabhinandan/vue-starter-kit.git"
-  },
-  "keywords": [
-    "vue",
-    "component",
-    "front end framework"
-  ],
-  "author": "Abhinandan <nmabhinandan@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nmabhinandan/vue-starter-kit/issues"
-  },
-  "homepage": "https://github.com/nmabhinandan/vue-starter-kit#readme",
   "devDependencies": {
     "babel-core": "^5.6.15",
     "babel-eslint": "^3.1.20",
     "babel-loader": "^5.2.2",
-    "eslint": "^0.24.0",
     "node-libs-browser": "^0.5.2",
     "webpack": "^1.10.0",
     "webpack-dev-server": "^1.10.1"

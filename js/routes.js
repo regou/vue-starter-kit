@@ -1,5 +1,7 @@
-import HomeComponent from './components/HomeComponent';
-import UserComponent from './components/UserComponent';
+var HomeComponent = require('./components/HomeComponent');
+var UserComponent = require('./components/UserComponent');
+
+
 
 
 const routes = {

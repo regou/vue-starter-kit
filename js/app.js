@@ -1,7 +1,7 @@
 var bootstrap = require('./bootstrap');
 var Vue = require('vue');
 
-require('./components/SideNav');
+require('./components/SideNav'); //如何和Main组件交互
 
 
 

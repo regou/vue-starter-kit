@@ -13,5 +13,4 @@ var UserComponent = Vue.extend({
 		</div>
 	`
 });
-
-export default UserComponent;
+module.exports = UserComponent
