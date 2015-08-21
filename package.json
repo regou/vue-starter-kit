@@ -17,10 +17,8 @@
     "webpack-dev-server": "^1.10.1"
   },
   "dependencies": {
-    "es6-collections": "^0.5.1",
     "vue": "^0.12.4",
-    "vue-class-component": "^1.0.0",
-    "vue-router": "vuejs/vue-router",
+    "vue-router": "^0.5.1",
     "vue-validator": "^1.1.1"
   }
 }
